@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Portfolio Site, Alec Ansusinha</title>
+		<meta name="description" content="Alec Ansusinha Portfolio" />
+        <meta name="keywords" content="GIS, maps, IUCN, geography, conservation" />
+		<meta name="author" content="Alec Ansusinha" />
+		<meta name="viewport" content="width=device-width, minimumscale=1.0, maximum-scale=1.0" />
+		<!-- Style of the component -->
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<script type='text/javascript' src='js/respond.min.js'></script>
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
+		</noscript>
+		<!-- Fonts Used Google Links-->
+	</head>
+	<body>
+		<div id="va-accordion" class="va-container" style="margin-top:0px; width:100%; height: 100%;">
+				<div class="va-wrapper">
+					<div class="va-slice va-slice-color-1">
+						<h3 class="va-title">About</h3>
+						<div class="va-content">
+							<p>About this site</p>
+							<h4>
+								This site has been created to help share the geographic visualizations of projects of IUCN, International Union for Conservation of Nature Thailand Programme.
+								<br/>
+
+							</h4>
+						</div>
+					</div>
+					<div class="va-slice va-slice-color-2">
+						<h3 class="va-title">IUCN</h3>
+						<div class="va-content">
+							<p>Projects</p>
+							<ul>
+								<li><a href="ProjSP/ProjSP.html"><img src="img/MapDefault-01.png"/><div id="caption">Samut Prakan Farms</div></a></li>
+								<li><a href="ProjBanBaKhamin/BanBaKhamin.html"><img src="img/MapDefault-01.png"/><div id="caption">Ban Ba Khamin Village</div></a></li>
+							</ul>
+						</div>	
+					</div>
+					<div class="va-slice va-slice-color-3">
+						<h3 class="va-title">Data</h3>
+						<div class="va-content">
+							<p>Coming Soon!</p>
+							<h4>
+								As it becomes available, data used in the projects showcased on this site may be downloaded here.
+
+							</h4>
+						</div>	
+					</div>
+					<div class="va-slice va-slice-color-4">
+						<h3 class="va-title">Contact</h3>
+						<div class="va-content">
+						<p>Reach out!</p>
+							<h4>
+								If you have any questions about the maps or data presented here, please contact Alec Ansusinha at <a href="emailto:a.ansusinha@gmail.com">a.ansusinha@gmail.com</a><br>
+								If you are interested in the work of IUCN Thailand, please visit their website <a href="http://www.iucn.org/thailand">here</a>.
+								<br/>
+
+							</h4>
+							
+						</div>	
+					</div>	
+				</div>
+			</div>
+			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/jquery.vaccordion.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#va-accordion').vaccordion({
+					accordionH		: $(window).height(),
+					visibleSlices	: 4,
+					expandedHeight	: 100,
+					animOpacity		: 0.1,
+					contentAnimSpeed: 100
+				});
+			});
+		</script>
+	</body>
+</html>
